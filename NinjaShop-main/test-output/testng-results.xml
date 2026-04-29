@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T21:58:42 IST" name="TutorialsNinja Automation Suite" finished-at="2026-04-29T22:00:56 IST" duration-ms="134176">
+    <groups>
+    </groups>
+    <test started-at="2026-04-29T21:58:42 IST" name="TutorialsNinja Functional Tests" finished-at="2026-04-29T22:00:56 IST" duration-ms="134176">
+      <class name="com.srm.ninjashop.tests.CheckoutTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.CheckoutTests@652a7737]" started-at="2026-04-29T21:59:27 IST" name="setUp" finished-at="2026-04-29T21:59:31 IST" duration-ms="3728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutWithoutLoginShowsStockBlock()[pri:0, instance:com.srm.ninjashop.tests.CheckoutTests@652a7737]" started-at="2026-04-29T21:59:31 IST" name="verifyCheckoutWithoutLoginShowsStockBlock" description="Attempt checkout without logging in and capture the out-of-stock block shown by the live site" finished-at="2026-04-29T21:59:35 IST" duration-ms="3967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithoutLoginShowsStockBlock -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.CheckoutTests@652a7737]" started-at="2026-04-29T21:59:35 IST" name="tearDown" finished-at="2026-04-29T21:59:35 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.CheckoutTests@652a7737]" started-at="2026-04-29T21:59:35 IST" name="setUp" finished-at="2026-04-29T21:59:37 IST" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoggedInCheckoutShowsStockBlock()[pri:0, instance:com.srm.ninjashop.tests.CheckoutTests@652a7737]" started-at="2026-04-29T21:59:37 IST" name="verifyLoggedInCheckoutShowsStockBlock" description="Attempt checkout as a logged-in user and capture the out-of-stock block shown by the live site" finished-at="2026-04-29T21:59:45 IST" duration-ms="7565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInCheckoutShowsStockBlock -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.CheckoutTests@652a7737]" started-at="2026-04-29T21:59:45 IST" name="tearDown" finished-at="2026-04-29T21:59:45 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.ninjashop.tests.CheckoutTests -->
+      <class name="com.srm.ninjashop.tests.CartTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:01 IST" name="setUp" finished-at="2026-04-29T21:59:04 IST" duration-ms="2218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartQuantityUpdateChangesLineTotal()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:04 IST" name="verifyCartQuantityUpdateChangesLineTotal" description="Update the quantity of a product in the cart and verify the line total changes" finished-at="2026-04-29T21:59:08 IST" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartQuantityUpdateChangesLineTotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:08 IST" name="tearDown" finished-at="2026-04-29T21:59:08 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:08 IST" name="setUp" finished-at="2026-04-29T21:59:11 IST" duration-ms="2649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHeaderCartCountReflectsAddedItems()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:11 IST" name="verifyHeaderCartCountReflectsAddedItems" description="Verify the cart icon in the header reflects the correct item count" finished-at="2026-04-29T21:59:13 IST" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeaderCartCountReflectsAddedItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:13 IST" name="tearDown" finished-at="2026-04-29T21:59:13 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:13 IST" name="setUp" finished-at="2026-04-29T21:59:16 IST" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductCanBeAddedToCart()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:16 IST" name="verifyProductCanBeAddedToCart" description="Add a product to cart and verify it appears with the correct name and price" finished-at="2026-04-29T21:59:20 IST" duration-ms="3863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeAddedToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:20 IST" name="tearDown" finished-at="2026-04-29T21:59:20 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:20 IST" name="setUp" finished-at="2026-04-29T21:59:23 IST" duration-ms="2251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductCanBeRemovedFromCart()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:23 IST" name="verifyProductCanBeRemovedFromCart" description="Remove a product from the cart and verify the cart becomes empty" finished-at="2026-04-29T21:59:27 IST" duration-ms="3996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductCanBeRemovedFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.CartTests@1eb6749b]" started-at="2026-04-29T21:59:27 IST" name="tearDown" finished-at="2026-04-29T21:59:27 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.ninjashop.tests.CartTests -->
+      <class name="com.srm.ninjashop.tests.ValidationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.ValidationTests@5b7ea70d]" started-at="2026-04-29T21:59:45 IST" name="setUp" finished-at="2026-04-29T21:59:47 IST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidEmailFormatValidation()[pri:0, instance:com.srm.ninjashop.tests.ValidationTests@5b7ea70d]" started-at="2026-04-29T21:59:47 IST" name="verifyInvalidEmailFormatValidation" description="Enter an invalid email format during registration and verify browser validation" finished-at="2026-04-29T21:59:50 IST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmailFormatValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.ValidationTests@5b7ea70d]" started-at="2026-04-29T21:59:50 IST" name="tearDown" finished-at="2026-04-29T21:59:50 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.ValidationTests@5b7ea70d]" started-at="2026-04-29T21:59:50 IST" name="setUp" finished-at="2026-04-29T21:59:53 IST" duration-ms="2818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistrationValidationMessagesForEmptyFields()[pri:0, instance:com.srm.ninjashop.tests.ValidationTests@5b7ea70d]" started-at="2026-04-29T21:59:53 IST" name="verifyRegistrationValidationMessagesForEmptyFields" description="Submit registration with empty fields and verify validation messages are shown" finished-at="2026-04-29T21:59:55 IST" duration-ms="2546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationValidationMessagesForEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.ValidationTests@5b7ea70d]" started-at="2026-04-29T21:59:55 IST" name="tearDown" finished-at="2026-04-29T21:59:56 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.ninjashop.tests.ValidationTests -->
+      <class name="com.srm.ninjashop.tests.ProductTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:42 IST" name="setUp" finished-at="2026-04-29T21:58:49 IST" duration-ms="6097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptySearchShowsNoResultsMessage()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:49 IST" name="verifyEmptySearchShowsNoResultsMessage" description="Verify empty search shows the no-results message and capture evidence" finished-at="2026-04-29T21:58:50 IST" duration-ms="1227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptySearchShowsNoResultsMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:50 IST" name="tearDown" finished-at="2026-04-29T21:58:50 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:50 IST" name="setUp" finished-at="2026-04-29T21:58:53 IST" duration-ms="2633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductDetailsShowNameAndPrice()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:53 IST" name="verifyProductDetailsShowNameAndPrice" description="Open a product detail page and verify product name and price are shown" finished-at="2026-04-29T21:58:55 IST" duration-ms="1823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductDetailsShowNameAndPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:55 IST" name="tearDown" finished-at="2026-04-29T21:58:55 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:55 IST" name="setUp" finished-at="2026-04-29T21:58:57 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchDisplaysResults()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:57 IST" name="verifySearchDisplaysResults" description="Search for a product by keyword and verify results are displayed" finished-at="2026-04-29T21:58:58 IST" duration-ms="792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchDisplaysResults -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:58 IST" name="tearDown" finished-at="2026-04-29T21:58:58 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:58:58 IST" name="setUp" finished-at="2026-04-29T21:59:01 IST" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTopCategoryDisplaysProducts()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:59:01 IST" name="verifyTopCategoryDisplaysProducts" description="Navigate to a top category and verify products are listed" finished-at="2026-04-29T21:59:01 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTopCategoryDisplaysProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.ProductTests@5b057c8c]" started-at="2026-04-29T21:59:01 IST" name="tearDown" finished-at="2026-04-29T21:59:01 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.ninjashop.tests.ProductTests -->
+      <class name="com.srm.ninjashop.tests.AuthenticationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:58:42 IST" name="setUp" finished-at="2026-04-29T21:58:48 IST" duration-ms="5914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:58:48 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T21:58:57 IST" duration-ms="8598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@72b7df6a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:58:57 IST" name="tearDown" finished-at="2026-04-29T21:58:57 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:58:57 IST" name="setUp" finished-at="2026-04-29T21:59:00 IST" duration-ms="2603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:00 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T21:59:08 IST" duration-ms="7809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@72b7df6a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:08 IST" name="tearDown" finished-at="2026-04-29T21:59:08 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:08 IST" name="setUp" finished-at="2026-04-29T21:59:11 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:11 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T21:59:19 IST" duration-ms="8135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@189332fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:19 IST" name="tearDown" finished-at="2026-04-29T21:59:19 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:19 IST" name="setUp" finished-at="2026-04-29T21:59:21 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:21 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T21:59:30 IST" duration-ms="9074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@189332fd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:30 IST" name="tearDown" finished-at="2026-04-29T21:59:31 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:31 IST" name="setUp" finished-at="2026-04-29T21:59:33 IST" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:33 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T21:59:41 IST" duration-ms="7409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@182876cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:41 IST" name="tearDown" finished-at="2026-04-29T21:59:41 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:41 IST" name="setUp" finished-at="2026-04-29T21:59:43 IST" duration-ms="2389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:43 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T21:59:52 IST" duration-ms="8514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@182876cb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:52 IST" name="tearDown" finished-at="2026-04-29T21:59:52 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:52 IST" name="setUp" finished-at="2026-04-29T21:59:55 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T21:59:55 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T22:00:01 IST" duration-ms="6589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@1819c69a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:01 IST" name="tearDown" finished-at="2026-04-29T22:00:02 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:02 IST" name="setUp" finished-at="2026-04-29T22:00:05 IST" duration-ms="3412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginScenarios(com.srm.ninjashop.model.TestUser,boolean)[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:05 IST" name="verifyLoginScenarios" description="Verify login success and login failure using DataProvider" data-provider="loginCredentials" finished-at="2026-04-29T22:00:19 IST" duration-ms="13456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.srm.ninjashop.model.TestUser@1819c69a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginScenarios -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:19 IST" name="tearDown" finished-at="2026-04-29T22:00:19 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:19 IST" name="setUp" finished-at="2026-04-29T22:00:21 IST" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutRedirectsToHomePage()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:21 IST" name="verifyLogoutRedirectsToHomePage" description="Verify logout returns the user to the home page" finished-at="2026-04-29T22:00:48 IST" duration-ms="27392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutRedirectsToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:48 IST" name="tearDown" finished-at="2026-04-29T22:00:49 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:49 IST" name="setUp" finished-at="2026-04-29T22:00:51 IST" duration-ms="2533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserCanRegisterSuccessfully()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:51 IST" name="verifyUserCanRegisterSuccessfully" description="Verify registration using the Excel row data as provided" finished-at="2026-04-29T22:00:56 IST" duration-ms="4596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanRegisterSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.srm.ninjashop.tests.AuthenticationTests@41925502]" started-at="2026-04-29T22:00:56 IST" name="tearDown" finished-at="2026-04-29T22:00:56 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.srm.ninjashop.tests.AuthenticationTests -->
+    </test> <!-- TutorialsNinja Functional Tests -->
+  </suite> <!-- TutorialsNinja Automation Suite -->
+</testng-results>

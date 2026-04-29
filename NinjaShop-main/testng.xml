@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TutorialsNinja Automation Suite" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="com.srm.ninjashop.listeners.TestListener"/>
+    </listeners>
+
+    <test name="TutorialsNinja Functional Tests">
+        <classes>
+            <class name="com.srm.ninjashop.tests.AuthenticationTests"/>
+            <class name="com.srm.ninjashop.tests.ProductTests"/>
+            <class name="com.srm.ninjashop.tests.CartTests"/>
+            <class name="com.srm.ninjashop.tests.CheckoutTests"/>
+            <class name="com.srm.ninjashop.tests.ValidationTests"/>
+        </classes>
+    </test>
+</suite>

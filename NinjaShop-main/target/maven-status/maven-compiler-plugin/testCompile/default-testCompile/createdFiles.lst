@@ -1,0 +1,7 @@
+com\srm\nopcommerce\tests\CartTests.class
+com\srm\nopcommerce\tests\ProductSearchTests.class
+com\srm\nopcommerce\tests\AuthenticationTests.class
+com\srm\nopcommerce\model\TestUser.class
+com\srm\nopcommerce\tests\BaseTest.class
+com\srm\nopcommerce\tests\WishlistTests.class
+com\srm\nopcommerce\tests\ValidationTests.class

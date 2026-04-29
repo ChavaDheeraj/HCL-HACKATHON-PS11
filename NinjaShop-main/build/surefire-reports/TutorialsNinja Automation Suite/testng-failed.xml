@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [TutorialsNinja Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.srm.ninjashop.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="classes" name="TutorialsNinja Functional Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.srm.ninjashop.tests.AuthenticationTests">
+        <methods>
+          <include name="verifyUserCanRegisterSuccessfully"/>
+          <include name="verifyLogoutRedirectsToHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginScenarios" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.srm.ninjashop.tests.AuthenticationTests -->
+      <class name="com.srm.ninjashop.tests.ValidationTests">
+        <methods>
+          <include name="verifyCheckoutShowsStockWarning"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.ninjashop.tests.ValidationTests -->
+      <class name="com.srm.ninjashop.tests.CheckoutTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLoggedInCheckoutShowsStockBlock"/>
+        </methods>
+      </class> <!-- com.srm.ninjashop.tests.CheckoutTests -->
+      <class name="com.srm.ninjashop.tests.ProductTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyEmptySearchShowsNoResultsMessage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.srm.ninjashop.tests.ProductTests -->
+    </classes>
+  </test> <!-- TutorialsNinja Functional Tests(failed) -->
+</suite> <!-- Failed suite [TutorialsNinja Automation Suite] -->
